@@ -35,3 +35,30 @@ add_executable(facade ${SOURCE_FILES})
 
 set(SOURCE_FILES composite/composite.cpp composite/composite.h)
 add_executable(composite ${SOURCE_FILES})
+
+set(SOURCE_FILES strategy/strategy.cpp strategy/strategy.h)
+add_executable(strategy ${SOURCE_FILES})
+
+set(SOURCE_FILES decorator/decorator.cpp decorator/decorator.h)
+add_executable(decorator ${SOURCE_FILES})
+
+set(SOURCE_FILES proxy/proxy.cpp proxy/proxy.h)
+add_executable(proxy ${SOURCE_FILES})
+
+set(SOURCE_FILES templatemethod/templatemethod.cpp templatemethod/templatemethod.h)
+add_executable(templatemethod ${SOURCE_FILES})
+
+set(SOURCE_FILES flyweight/flyweight.cpp flyweight/flyweight.h)
+add_executable(flyweight ${SOURCE_FILES})
+
+set(SOURCE_FILES command/command.cpp command/command.h)
+add_executable(command ${SOURCE_FILES})
+
+set(SOURCE_FILES iterator/iterator.cpp iterator/iterator.h)
+add_executable(iterator ${SOURCE_FILES})
+
+set(SOURCE_FILES mediator/mediator.cpp mediator/mediator.h)
+add_executable(mediator ${SOURCE_FILES})
+
+set(SOURCE_FILES memento/memento.cpp memento/memento.h)
+add_executable(memento ${SOURCE_FILES})
