@@ -62,3 +62,9 @@ add_executable(mediator ${SOURCE_FILES})
 
 set(SOURCE_FILES memento/memento.cpp memento/memento.h)
 add_executable(memento ${SOURCE_FILES})
+
+set(SOURCE_FILES state/state.cpp state/state.h)
+add_executable(state ${SOURCE_FILES})
+
+set(SOURCE_FILES observer/observer.cpp observer/observer.h)
+add_executable(observer ${SOURCE_FILES})
